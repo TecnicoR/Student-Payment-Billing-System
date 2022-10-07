@@ -1,0 +1,28 @@
+create database PaymentBillSystem;
+use PaymentBillSystem;
+create table student(
+id varchar(10) primary key,
+name varchar(30),
+course varchar(15),
+mobile varchar(15),
+fathers_name varchar(30),
+mothers_name varchar(30),
+qualification varchar(20),
+date_of_birth varchar(10),
+date_of_join varchar(10),
+date_of_submission varchar(10),
+paid varchar(10),
+fee varchar(10),
+balance varchar(15),
+address varchar(40),
+description varchar(60),
+trainer varchar(20)
+);
+create table accountant(
+branch varchar(20),
+username varchar(30) primary key,
+password varchar(30),
+date_of_joining varchar(10),
+date_of_birth varchar(10),
+salary varchar(20)
+);

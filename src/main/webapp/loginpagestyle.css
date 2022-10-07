@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+.loginpage {
+	width: 100%;
+	min-height: 40vh;
+	background-color: #EEEEEE;
+	display: flex;
+	justify-content: center;
+}
+
+.loginpage form {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 5px;
+	/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 8px;
+}
+
+.loginpage form input {
+	width: 300px;
+	height: 30px;
+	padding: 12px;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: none;
+	outline: none;
+}
+
+.loginpage form input[type=text] {
+	box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.loginpage form input[type=date] {
+	box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.loginpage form input[type=password] {
+	box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.loginpage input[type=submit] {
+	margin-top: 15px;
+	border: 2px solid #041562;
+	cursor: pointer;
+	width: 70px;
+	padding: 6px;
+}
+
+.formbody button {
+	width: 150px;
+}
+
+.loginpage input[type=submit]:hover {
+	background-color: #11468F;
+	color: #EEEEEE;
+}
+
+.loginpage label {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.formbody {
+	margin: 20px;
+}
+
+.formbody hr {
+	margin-top: 2px;
+}
+.btn{
+	width: 250px;
+	height: 70px;
+	margin-top: 15px;
+	border: 2px solid #041562;
+	cursor: pointer;
+	width: 70px;
+	padding: 6px;
+	align-items: center;
+}

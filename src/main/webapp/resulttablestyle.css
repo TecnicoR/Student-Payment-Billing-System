@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.resultBody {
+	width: 100vw;
+	min-height: 60vh;
+	background-color: #EEEEEE;
+}
+
+.resultBody table {
+	min-width: 80vw;
+	max-width: 90vw;
+	margin: auto;
+	font-size: 14px;
+	margin-bottom: 50px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+	border: none;
+}
+
+.resultBody tr:nth-child(even) {
+	background-color: white;
+	margin: 2px auto;
+}
+
+.resultBody th, td {
+	padding: 8px;
+	box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.resultBody th {
+	border-bottom: 2px solid black;
+}

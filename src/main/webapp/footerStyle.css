@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+.footer {
+	min-height: 8vh;
+	width: 100%;
+	background-color: #11468F;
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer p {
+	color: #EEEEEE;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
